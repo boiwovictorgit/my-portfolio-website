@@ -19,12 +19,12 @@ function Contact() {
 
             <div className="contact-item">
               <h3>Email</h3>
-              <p>your-email@example.com</p>
+              <p>victorboiwo04@gmail.com</p>
             </div>
 
             <div className="contact-item">
               <h3>Phone</h3>
-              <p>+254 XXX XXX XXX</p>
+              <p>+254 797179296</p>
             </div>
 
             <div className="contact-item">
