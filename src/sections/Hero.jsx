@@ -1,3 +1,5 @@
+import Profile from "./Profile";
+
 function Hero() {
   return (
     <section className="hero" id="home">
@@ -23,6 +25,8 @@ function Hero() {
           </a>
         </div>
       </div>
+
+      <Profile />
     </section>
   );
 }

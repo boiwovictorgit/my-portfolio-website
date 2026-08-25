@@ -9,10 +9,13 @@ import Resume from "./sections/Resume";
 import Button from "./components/Button";
 import Design from "./sections/Desig";
 
+
 function App() {
   return (
     <div>
       <Navbar />
+
+
       <Hero />
 
       <About />
@@ -30,6 +33,8 @@ function App() {
       <Button/>
 
       <Design/>
+
+      
     </div>
   );
 }

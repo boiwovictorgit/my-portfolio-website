@@ -37,7 +37,7 @@ function About() {
 
             <div className="info-box">
               <h4>Backend</h4>
-              <p>Python, Flask, REST APIs</p>
+              <p>Python, </p>
             </div>
 
             <div className="info-box">

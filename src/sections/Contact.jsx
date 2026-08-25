@@ -29,7 +29,7 @@ function Contact() {
 
             <div className="contact-item">
               <h3>Location</h3>
-              <p>Kenya</p>
+              <p>Nairobi Kenya</p>
             </div>
 
           </div>

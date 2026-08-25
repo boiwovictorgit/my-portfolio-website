@@ -46,3 +46,31 @@ body {
 .nav-links a:hover {
   color: #38bdf8;
 }
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 80px 8%;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-image {
+  flex: 0 0 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
