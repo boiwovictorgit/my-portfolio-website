@@ -1,3 +1,4 @@
+import "./Experiences.css";
 function Experiences() {
   return (
     <section id="experiences" className="experiences">
@@ -16,9 +17,9 @@ function Experiences() {
             </div>
 
             <div className="experiences-info">
-              <h3>Software Developer</h3>
+              <h3> Software Developer</h3>
 
-              <h4>Web Development</h4>
+              <h4> Web Development</h4>
 
               <p>
                 I develop modern and responsive web applications using

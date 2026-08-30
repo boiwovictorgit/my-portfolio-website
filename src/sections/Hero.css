@@ -3,8 +3,10 @@
 ========================= */
 
 .hero {
-  min-height: 100vh;
+  min-height: 78vh;
   width: 100%;
+  max-width: 1400px;
+  
   position: relative;
 
   display: flex;
@@ -12,7 +14,7 @@
   justify-content: center;
   gap: 60px;
 
-  padding: 100px 8% 60px;
+  padding: 70px 8% 40px;
 
   overflow: hidden;
 
@@ -104,9 +106,9 @@
 /* Job title */
 
 .hero-content h2 {
-  font-size: clamp(25px, 3vw, 38px);
+  font-size: clamp(22px, 2.5vw, 32px);
 
-  margin: 0 0 25px;
+  margin: 0 0 18px;
 
   color: #00c8ff;
 
@@ -120,15 +122,15 @@
 /* Description */
 
 .hero-description {
-  max-width: 620px;
+  max-width: 600px;
 
-  font-size: 20px;
+  font-size: 18px;
 
-  line-height: 1.7;
+  line-height: 1.2;
 
   color: #d5dfeb;
 
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 
@@ -153,13 +155,13 @@
   align-items: center;
   justify-content: center;
 
-  min-width: 190px;
+  min-width: 170px;
 
-  padding: 16px 28px;
+  padding: 13px 24px;
 
   border-radius: 35px;
 
-  font-size: 17px;
+  font-size: 16px;
 
   font-weight: 700;
 
@@ -253,7 +255,7 @@
 .hero-scroll {
   position: absolute;
 
-  bottom: 25px;
+  bottom: 15px;
 
   left: 50%;
 
